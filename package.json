@@ -1,0 +1,25 @@
+{
+  "name": "@playbuzz/eslint-config",
+  "version": "0.5.0",
+  "description": "eslint rules in exco js projects",
+  "files": ["index.js", ".eslintrc.yml" ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playbuzz/eslint-config.git"
+  },
+  "author": "exco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/playbuzz/eslint-config/issues"
+  },
+  "homepage": "https://github.com/playbuzz/eslint-config#readme",
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  },
+  "scripts": {
+    "test": "node test",
+    "cover": "echo 'no coverage in this project'",
+    "lint": "eslint "
+  }
+}
