@@ -2,7 +2,10 @@
   "name": "@playbuzz/eslint-config",
   "version": "0.5.0",
   "description": "eslint rules in exco js projects",
-  "files": ["index.js", ".eslintrc.yml" ],
+  "files": [
+    "index.js",
+    ".eslintrc.yaml"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -20,6 +23,9 @@
   "scripts": {
     "test": "node test",
     "cover": "echo 'no coverage in this project'",
-    "lint": "eslint "
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
   }
 }
